@@ -1,0 +1,182 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 1200px; 
+    width: 90%; 
+    margin: 0px auto;
+    border: 2px double rgb(219, 214, 214);
+}
+
+header {
+    background:  black;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 1px;    
+}
+
+#logo {
+    max-width: 1200px;
+    background: black;
+}
+
+#logo img {
+    display: flex; 
+    margin: 0px auto;
+    border: 5px solid black;
+}
+
+main h2 {
+    text-decoration: overline;
+    text-align: center;
+    color:black;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+main p {
+    font-size: x-large;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.hacker{
+    float: left;
+    width: 410px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.hacker2{
+    float: left;
+    width: 410px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.cistic {
+    clear: both;
+}
+
+.button1 {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    display: block;
+    margin: 0px auto;
+    padding: 10px 126px;
+}
+
+.button1:hover {
+    border-bottom: 2px solid #EF6534;
+    color: chartreuse;
+    background: rgb(58, 57, 57);
+}
+
+.button2 {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    display: block;
+    margin: 0px auto;
+    padding: 10px 100px;
+}
+
+.button2:hover {
+    border-bottom: 2px solid #EF6534;
+    color: chartreuse;
+    background: rgb(58, 57, 57);;
+} 
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+
+nav ul a {
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul a:hover, .aktivni a {
+    border-bottom: 2px solid #EF6534;
+}
+
+.menu {
+    text-align: center;
+    margin: 0px auto;
+    width: 600px; 
+}
+
+iframe{
+    display: flex; 
+    margin: 0px auto;
+}
+
+.channel {
+    position: relative;
+    width: 100%; 
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    margin-top: 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+}
+
+.sendButton {
+    margin: 60px;
+    font-size: 18px;
+    background: black;
+    color: white;
+}
+
+.sendButton:hover {
+    border-bottom: 2px solid #EF6534;
+    color: chartreuse;
+    background: rgb(58, 57, 57);;
+}
+
+footer p {
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding: 40px
+}
+
+
+
+
+
+
